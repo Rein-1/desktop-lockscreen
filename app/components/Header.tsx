@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { BsGlobe } from "react-icons/bs";
+import { MdOutlineCamera } from "react-icons/md";
 
 const Nav = () => {
   return (
@@ -13,7 +14,7 @@ const Nav = () => {
         </p>
       </div>
       <div className="grid justify-items-center w-[270px] gap-4 border">
-        <img src="" alt="Camera" className="border" />
+      <MdOutlineCamera className="w-7 h-7" />
         <p className="border">Like the image that you see?</p>
       </div>
     </div>
