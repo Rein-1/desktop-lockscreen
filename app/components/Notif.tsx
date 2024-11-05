@@ -1,10 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
-import React from 'react'
+import { BsGlobe } from "react-icons/bs";
+
 
 const Notif = () => {
   return (
     <div className='grid flex-col justify-center gap-2 my-52 border'>
-        <img src="" alt="Browser" className='border'/>
+        <BsGlobe />
         <span className='border'>Notification</span>
     </div>
   )
