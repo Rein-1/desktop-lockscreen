@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        lockscreen: "url('/assets/bgImage.jpg')"
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
