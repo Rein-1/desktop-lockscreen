@@ -41,7 +41,6 @@
 import { useEffect, useState } from "react"
 
 const TimeDate = () => {
-  // Define state as string | null to allow null as initial value and string later
   const [time, setTime] = useState<string | null>(null)
   const [date, setDate] = useState<string | null>(null)
 
@@ -55,11 +54,11 @@ const TimeDate = () => {
       }))
     }
 
-    updateDateTime() // Initialize immediately after mounting
+    updateDateTime()
     
     const intervalId = setInterval(updateDateTime, 1000)
 
-    return () => clearInterval(intervalId) // Clean up the interval on unmount
+    return () => clearInterval(intervalId)
   }, [])
 
   // If time or date is null (indicating that it's still being set), render a loading state
