@@ -1,6 +1,6 @@
 import TimeDate from "./components/TimeDate";
 import Notif from "./components/Notif";
-import News from "./components/News";
+import News from "./components/[News]";
 
 export default function Home() {
   return (
