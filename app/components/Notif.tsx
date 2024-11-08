@@ -6,7 +6,7 @@ const Notif = () => {
   return (
     <div className="flex flex-col items-center justify-center gap-2 my-16 border">
       <IoSearch className="w-7 h-7 rounded-lg bg-black bg-opacity-80" />
-      <span className="flex-wrap w-80  hover:bg-black hover:bg-opacity-80 hover:rounded-xl border">
+      <span className="flex-wrap w-80 hover:bg-black hover:bg-opacity-80 hover:rounded-xl border">
         The AI era is a time when artificial intelligence (AI) is rapidly
         advancing and transforming how humans interact with machines and live
         their lives.
