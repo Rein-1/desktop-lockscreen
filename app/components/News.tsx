@@ -7,7 +7,6 @@ const News = () => {
     <div className="flex flex-wrap justify-center gap-5 md:justify-between border mx-56">
       <div className="border">
         <h2>Weather</h2>
-        <Weather />
       </div>
       <div className="border">Markets</div>
       <div className="border">Traffic</div>

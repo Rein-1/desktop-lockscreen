@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-"use client";
+"use server";
 import React, { useState, useEffect } from "react";
 
 // TypeScript types for the weather data response
@@ -38,7 +38,6 @@ const Weather = () => {
     fetchWeatherData();
   }, [apiUrl]);
 
-  
 };
 
 export default Weather;
