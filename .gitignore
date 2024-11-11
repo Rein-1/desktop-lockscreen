@@ -35,5 +35,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-#
-.*api
+# Ignore [Weather].ts inside components/api
+components/api/[Weather].ts
