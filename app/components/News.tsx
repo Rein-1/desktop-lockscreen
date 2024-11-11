@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import Weather from "./api/Weather";
+import Weather from "./api/[Weather]";
 
 const News = () => {
 
